@@ -9,4 +9,5 @@ fun main() {
     val result = StringUtils.join(tokens)
     println(WordUtils.capitalize(result))
     println(Library().someLibraryMethod())
+    println(Library().anotherLibraryMethod())
 }
